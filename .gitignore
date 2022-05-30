@@ -240,6 +240,8 @@ ModelManifest.xml
 
 # Paket dependency manager
 .paket/paket.exe
+/.paket
+/paket-files
 
 # FAKE - F# Make
 .fake/
