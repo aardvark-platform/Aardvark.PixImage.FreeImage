@@ -1,4 +1,4 @@
-framework: netstandard2.0, net6
+framework: netstandard2.0, net6.0
 source https://api.nuget.org/v3/index.json
 
 storage: none
@@ -9,10 +9,8 @@ nuget Microsoft.NETFramework.ReferenceAssemblies >= 1.0.0 lowest_matching: true
 nuget Aardvark.Build                    ~> 1.0.11
 nuget Aardvark.Base.Tensors             ~> 5.2.3
 
-nuget System.Buffers                    ~> 4.5.0
-nuget System.Drawing.Common             ~> 4.5.1
-nuget System.Drawing.Primitives         ~> 4.3.0
-nuget System.Memory                     ~> 4.5.3
+nuget System.Buffers                    ~> 4.5.1
+nuget System.Memory                     ~> 4.5.5
 
 group Test
     framework: net6.0
