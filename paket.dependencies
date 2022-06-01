@@ -19,6 +19,8 @@ group Test
 
     nuget FSharp.Core                       >= 5.0.0 lowest_matching: true
 
+    nuget Aardvark.PixImage.Devil           ~> 5.2.4
+
     nuget NUnit                             ~> 3.13.3
     nuget FsUnit                            ~> 5.0.0
     nuget FsCheck                           ~> 2.16.4
