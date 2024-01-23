@@ -7,7 +7,7 @@ nuget FSharp.Core                                >= 5.0.0 lowest_matching: true
 nuget Microsoft.NETFramework.ReferenceAssemblies >= 1.0.0 lowest_matching: true
 
 nuget Aardvark.Build                    ~> 1.0.12
-nuget Aardvark.Base.Tensors             ~> 5.2.4
+nuget Aardvark.Base.Tensors             ~> 5.2.28
 
 nuget System.Buffers                    >= 4.5.1 lowest_matching: true
 nuget System.Memory                     >= 4.5.5 lowest_matching: true
@@ -19,7 +19,7 @@ group Test
 
     nuget FSharp.Core                       >= 5.0.0 lowest_matching: true
 
-    nuget Aardvark.PixImage.Devil           ~> 5.2.4
+    nuget Aardvark.PixImage.Devil           ~> 5.2.28
 
     nuget NUnit                             ~> 3.13.3
     nuget FsUnit                            ~> 5.0.0
